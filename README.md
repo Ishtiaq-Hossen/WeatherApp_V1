@@ -4,8 +4,7 @@
 A simple weather app application by using Rest API, flutter &amp; dart
 
 ## Group members
- - 2030660	Tabriji Islam
- - 1921532	Ishtiaq Hossen
+ <table><thead><tr><th colspan="3">Team Tornedo</th></tr></thead><tbody><tr><td>01</td><td>Ishtiaq Hossen </td><td>ishtiaqhossen321@gmail.com</td></tr><tr><td>02</td><td>Tabriji Islam</td><td>2030660@iub.edu.bd<br></td></tr></tbody></table>
 
 ### Course Learning Steps
 
