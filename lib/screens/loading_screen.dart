@@ -41,7 +41,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   Future<dynamic> getCityWeather(String cityName) async {
     final apiKey =
-        '931aa452caaa6eb6552cde6cd099a6ec'; // Replace with your OpenWeatherMap API key
+        'b1e88ff11507ebd0541182bdc0b87618'; // Replace with your OpenWeatherMap API key
 
     // If the cityName is empty, set a default city ("Dhaka" in this case)
     String city = cityName.isEmpty ? "Dhaka" : cityName;

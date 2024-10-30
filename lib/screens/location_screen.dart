@@ -110,15 +110,14 @@ class LocationScreenState extends State<LocationScreen> {
                     SizedBox(width: 24.0),
                     GestureDetector(
                       onTap: () async {
-
                         Position position = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.best);
                         double latitude = position.latitude;
                         double longitude = position.longitude;
                         print('Latitude: $latitude, Longitude: $longitude');
-                        String apiKey = '7e452eb4c7404482804f0c011f6fda64'; // Replace with your API key
-
+                        String apiKey = 'b1e88ff11507ebd0541182bdc0b87618'; // Replace with your API key
                         try{
                           String cityName2 = await getCityName(latitude, longitude, apiKey);
+                          print(cityName2);
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
